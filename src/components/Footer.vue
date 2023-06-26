@@ -1,15 +1,15 @@
 <template>
-  <SecurityBanner  msg="Security Banner" />
+  <Banner  msg="Banner" />
 </template>
 
 
 <script>
-import SecurityBanner from './SecurityBanner.vue'
+import Banner from './Banner.vue'
 
 export default {
   name: 'Footer',
   components: {
-    SecurityBanner
+    Banner
   },
   props: {
     title: String,
