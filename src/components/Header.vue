@@ -1,17 +1,17 @@
 <template>
-  <SecurityBanner  msg="Security Banner" />
+  <Banner  msg="Banner" />
   <ApplicationMode />
   <div class="headertitle">{{ msg || "Default Title" }}</div>
 </template>
 
 <script >
-import SecurityBanner from './SecurityBanner.vue'
+import Banner from './Banner.vue'
 import ApplicationMode from './ApplicationMode.vue'
 
 export default {
   name: 'Header',
   components: {
-    SecurityBanner,
+    Banner,
     ApplicationMode
   },
   props: {
