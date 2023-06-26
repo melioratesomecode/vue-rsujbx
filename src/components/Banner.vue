@@ -1,10 +1,10 @@
 <template>
-  <div class="securitybanner" >{{msg || "Security Banner" }}</div>
+  <div class="banner" >{{msg || "Banner" }}</div>
 </template>
 
 <script>
 export default {
-  name: 'SecurityBanner',
+  name: 'Banner',
   props: {
     msg: String,
     bannercolor: String
@@ -13,7 +13,7 @@ export default {
 </script>
 
 <style>
-.securitybanner {
+.banner {
   font-family: Tahoma, Arial, Verdana, sans-serif;
   font-size: 1rem;
   font-weight: bold;
